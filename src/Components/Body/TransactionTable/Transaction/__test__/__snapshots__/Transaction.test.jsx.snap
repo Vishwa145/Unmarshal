@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="Content"
+>
+  <img
+    alt=""
+    src="https://assets.unmarshal.io/tokens/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48.png"
+  />
+  <div
+    className="TransactionDetails"
+  >
+    <div>
+      <p>
+        USD Coin
+         
+        <span
+          className="Highlight"
+        >
+          1.92%
+        </span>
+      </p>
+      <p>
+        $7,641.75
+      </p>
+    </div>
+    <div>
+      <p
+        style={
+          Object {
+            "color": "#576574",
+          }
+        }
+      >
+        43,761.121 POND . $0.17
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#1dd1a1",
+          }
+        }
+      >
+        +2.32%($173.13)
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Matches snapshot 2`] = `
+<div
+  className="Content"
+>
+  <img
+    alt=""
+    src="https://assets.unmarshal.io/tokens/0x09E4BDFb273245063eF5E800D891eFF7d04f9B83.png"
+  />
+  <div
+    className="TransactionDetails"
+  >
+    <div>
+      <p>
+        ETH Price Action Candlestick Set
+         
+        <span
+          className="Highlight"
+        >
+          1.92%
+        </span>
+      </p>
+      <p>
+        $7,641.75
+      </p>
+    </div>
+    <div>
+      <p
+        style={
+          Object {
+            "color": "#576574",
+          }
+        }
+      >
+        43,761.121 POND . $0.17
+      </p>
+      <p
+        style={
+          Object {
+            "color": "#1dd1a1",
+          }
+        }
+      >
+        +2.32%($173.13)
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Nav"
+  >
+    <div
+      className="Logo"
+    >
+      <img
+        alt="Logo"
+        src="logo.png"
+      />
+      <h2>
+        unmarshal
+      </h2>
+    </div>
+    <div
+      className="SearchBar"
+    >
+      <input
+        name="email"
+        placeholder="Search by Address / Txn Hash"
+        type="text"
+      />
+      <button>
+        <img
+          alt=""
+          height="100%"
+          src="SearchIcon.svg"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="Body"
+  >
+    <div
+      className="Summary"
+    >
+      <h3>
+        <strong>
+          Transaction Details
+        </strong>
+      </h3>
+      <p>
+        Unmarshal - sponsered slots available 
+        <a
+          href="/"
+        >
+          Book your slot here!
+        </a>
+      </p>
+    </div>
+    <div
+      className="Container"
+    >
+      <div
+        className="SwitchTab"
+      >
+        <button>
+          <h3>
+            Ethereum
+          </h3>
+        </button>
+        <button>
+          <h3>
+            BSC
+          </h3>
+        </button>
+        <button>
+          <h3>
+            Ethereum
+          </h3>
+        </button>
+      </div>
+      <h1>
+        Loading
+        ...
+      </h1>
+    </div>
+  </div>
+</div>
+`;

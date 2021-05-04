@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="Summary"
+>
+  <h3>
+    <strong>
+      Transaction Details
+    </strong>
+  </h3>
+  <p>
+    Unmarshal - sponsered slots available 
+    <a
+      href="/"
+    >
+      Book your slot here!
+    </a>
+  </p>
+</div>
+`;

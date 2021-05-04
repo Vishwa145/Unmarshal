@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+p , h3 {
+    margin: 0%;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f2f6;
+}
+
+.Nav{
+    height: 10%;
+    width: 95%;
+    padding: 0px 2.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 3px #bdc3c7;
+    background-color: #ffffff;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.Logo > h2{
+    margin: 0%;
+}
+
+.SearchBar{
+    border: solid #bdc3c7 1.5px;
+    border-radius: 5px;
+    height: 40%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.SearchBar > button{
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+
+.SearchBar > input{
+    outline: none;
+    border: none;
+    height: 90%;
+    width: 200px;
+}
+
+.Body{
+    height: 85%;
+    width: 600px;
+}
+
+.Summary{
+    padding: 30px 0px;
+}
+
+.Summary > p {
+    color: #576574;
+}
+
+.Summary > p > a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: #1dd1a1;
+}
+
+.Container{
+    padding: 35px;
+    height: 70%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    margin-bottom: 30px;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.SwitchTab{
+    padding-bottom: 30px;
+}
+
+.SwitchTab > button{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+.SwitchTab > button:first-of-type{
+    background-color: #1e272e;
+    color: #ffffff;
+}
+
+.Container> div:last-child{
+    border: none;
+}
+
+.Content{
+    padding: 16px;
+    border-bottom: solid #bdc3c7 1px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.Content > img{
+    border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+
+.TransactionDetails{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.TransactionDetails > div{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Highlight{
+    background-color: #bdc3c7;
+    border-radius: 10px;
+    font-size: smaller;
+}

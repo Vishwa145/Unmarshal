@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="SwitchTab"
+>
+  <button>
+    <h3>
+      Ethereum
+    </h3>
+  </button>
+  <button>
+    <h3>
+      BSC
+    </h3>
+  </button>
+  <button>
+    <h3>
+      Ethereum
+    </h3>
+  </button>
+</div>
+`;

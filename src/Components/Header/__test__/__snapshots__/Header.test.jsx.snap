@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<div
+  className="Nav"
+>
+  <div
+    className="Logo"
+  >
+    <img
+      alt="Logo"
+      src="logo.png"
+    />
+    <h2>
+      unmarshal
+    </h2>
+  </div>
+  <div
+    className="SearchBar"
+  >
+    <input
+      name="email"
+      placeholder="Search by Address / Txn Hash"
+      type="text"
+    />
+    <button>
+      <img
+        alt=""
+        height="100%"
+        src="SearchIcon.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
